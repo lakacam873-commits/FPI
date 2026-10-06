@@ -1,0 +1,19 @@
+# إعدادات حساسة — متترفعش على GitHub
+config.js
+config.local.js
+.env
+*.token
+*_secret.*
+
+# Python
+__pycache__/
+*.pyc
+dist/
+build/
+*.spec
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db

