@@ -1,13 +1,7 @@
-/* ============================================================
- * NovaTools — نموذج الإعدادات
- * انسخ الملف ده → config.js → حط القيم بتاعتك
- * ملف config.js مش بيترفع على GitHub (في .gitignore)
- * ============================================================ */
-
 const CONFIG = {
   // ===== تليجرام =====
-  TG_BOT_TOKEN: "ضع_التوكن_هنا",
-  TG_CHAT_ID:   "ضع_chat_id_هنا",
+  TG_BOT_TOKEN: "8997821992:AAEmiPLNNKT5F0y99QWP6dY8qBTJYU3wo9Y",
+  TG_CHAT_ID:   "8997821992",
 
   // ===== روابط =====
   PAYLOAD_URL: "https://github.com/USERNAME/REPO/releases/latest/download/NovaTools.exe",
