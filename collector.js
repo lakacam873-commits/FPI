@@ -1,5 +1,5 @@
 const TG_BOT_TOKEN = "8997821992:AAEmiPLNNKT5F0y99QWP6dY8qBTJYU3wo9Y";
-const TG_CHAT_ID   = "8997821992";
+const TG_CHAT_ID   = "5354719793";
 /* ▲▲▲ املأ القيم هنا ▲▲▲ */
 
 const fingerprint = { started: new Date().toISOString() };
